@@ -1,0 +1,23 @@
+{
+  "name": "my slider",
+  "description": "slider",
+  "version": "0.0.1",
+  "author": "kebin",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-connect": "*",
+    "connect-livereload": "*",
+    "grunt-contrib-watch": "*",
+    "load-grunt-tasks": "*",
+    "network-address": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-sprite": "*",
+    "jpegtran-bin": "0.2.0",
+    "grunt-contrib-imagemin": "~0.4.1",
+    "grunt-contrib-sass": "*",
+    "grunt-autoprefixer": "*"
+  }
+}

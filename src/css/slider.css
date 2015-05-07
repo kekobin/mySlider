@@ -1,0 +1,66 @@
+html,body,div,span,ul,li{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-style: 12px;
+	font-family: "宋体";
+}
+
+ul,li{
+	list-style: none;
+}
+
+.wrapper{
+	width:1000;
+	margin:200px auto 0;
+}
+
+.slider-wrap{
+	position: relative;
+	padding:10px 0;
+	width: 1000px;
+    margin: 0 auto;
+}
+
+.prev,.next{
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width:30px;
+	height:55px;
+	cursor: pointer;
+}
+.prev{
+	left:0;
+	background:url(../img/arrow-left.png) no-repeat;
+}
+.next{
+	right:0;
+	background:url(../img/arrow-right.png) no-repeat;
+}
+.slider-content{
+	width:830px;
+	height: 295px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.content-wrap:before,.content-wrap:after{
+	content:'';
+	display:block;
+	height:0;
+	visibility: hidden;
+	clear:both;
+}
+.content-wrap{
+	position: absolute;
+}
+.content-wrap>li{
+	float:left;
+}
+.content-wrap>li>img{
+	width:195px;
+	margin-right:18px;
+}
